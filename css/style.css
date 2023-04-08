@@ -60,12 +60,13 @@ form input.opt{
     border-radius: 0;
     display: flex;
     justify-content: center;
+    /* align-items: center; */
   }
 
   .calculator form input { 
     border: 0;
-    width: 65px;
-    height: 65px;
+    width: 70px;
+    height: 70px;
     border-radius: 10px;
    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
    background: transparent;
@@ -78,10 +79,15 @@ form input.opt{
   form .screen input{
     text-align: right;
     flex: 1;
-    font-size: 60px;
+    font-size: 50px;
     box-shadow: none;
     height: 90px;
     border: 1px outset rgba(255, 255, 255, 0.1);
     padding-right: 20px;
   }
+
+  .calculator{
+  background: #3a4452;
+  padding: 2px ;
+}
 }

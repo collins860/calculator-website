@@ -19,7 +19,7 @@ body{
   background: #3a4452;
   padding: 20px ;
   border-radius: 10px;
-   overflow: hidden;
+    overflow: hidden;
 }
 
 .calculator form input { 
@@ -34,10 +34,25 @@ body{
  cursor: pointer;
  margin: 10px;
 }
+
+.calculator form input:hover{
+  opacity: 0.9;
+  transform: scale(0.9);
+}
+
+.calculator form input:active{
+  opacity: 0.4;
+  transform: scale(0.7);
+}
+
 form .screen{
   display: flex;
   justify-content: flex-end;
-  margin: 20px 0 ;
+  margin: 5px 0 20px 0 ;
+}
+
+.display { 
+  pointer-events: none;
 }
 
 form .screen input{

@@ -65,7 +65,7 @@ form input.opt{
 
   .calculator form input { 
     border: 0;
-    width: 50px;
+    width: 60px;
     height: 60px;
     border-radius: 10px;
    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
@@ -79,9 +79,8 @@ form input.opt{
   form .screen input{
     text-align: right;
     flex: 1;
-    font-size: 40px;
+    font-size: 60px;
     box-shadow: none;
-    border: 1px solid rgba(255, 255, 255, 0.1);
     height: 70px;
     padding-right: 10px;
   }

@@ -70,7 +70,7 @@ form input.opt{
   color: aqua;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 550px){
   
   .container .calculator{
     width: 100%;

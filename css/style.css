@@ -55,6 +55,10 @@ form input.opt{
 }
 
 @media screen and (max-width: 400px){
+   .container{
+    overflow: hidden;
+  }
+  
   .container .calculator{
     width: 100%;
     height: 100%;

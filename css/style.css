@@ -1,10 +1,7 @@
-*{
+body{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-body{
   font-family: sans-serif;
 }
 
@@ -65,7 +62,7 @@ form .screen input{
   box-shadow: none;
 }
 
-form input.equal{
+#equal{
   width: 145px;
 }
 
@@ -114,4 +111,9 @@ form input.opt{
 form input.opt{
   color: aqua;
 }
+
+#equal{
+  width: 156px;
+}
+
 }

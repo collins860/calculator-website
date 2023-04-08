@@ -65,15 +65,15 @@ form input.opt{
 
   .calculator form input { 
     border: 0;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 10px;
    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
    background: transparent;
-   font-size: 15px;
+   font-size: 20px;
    color: #fff;
    cursor: pointer;
-   margin: 5px;
+   margin: 10px;
   }
 
   form .screen input{

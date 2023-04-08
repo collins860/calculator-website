@@ -56,9 +56,6 @@ form input.opt{
 }
 
 @media screen and (max-width: 400px){
-   .container{
-    overflow: hidden;
-  }
   
   .container .calculator{
     width: 100%;
@@ -66,7 +63,6 @@ form input.opt{
     border-radius: 0;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
   }
 
   .calculator form input { 
@@ -95,5 +91,9 @@ form input.opt{
   .calculator{
   background: #3a4452;
   padding: 2px ;
+}
+
+form input.opt{
+  color: aqua;
 }
 }

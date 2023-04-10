@@ -19,7 +19,6 @@ body{
   background: #3a4452;
   padding: 20px ;
   border-radius: 10px;
-    overflow: hidden;
 }
 
 .calculator form input { 
@@ -80,12 +79,15 @@ form input.opt{
     justify-content: center;
   }
 
+  .container{
+    overflow: hidden;
+  }
+
   form{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 50px;
-     overflow: hidden;
   }
 
   .calculator form input { 

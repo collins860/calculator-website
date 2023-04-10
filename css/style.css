@@ -106,14 +106,10 @@ form input.opt{
   form .screen input{
     text-align: right;
     flex: 1;
-    font-size: 50px;
+    font-size: 45px;
     box-shadow: none;
-    height: 90px;
-    border: 1px outset rgba(255, 255, 255, 0.1);
-    padding-right: 20px;
-    margin:20px 0 0 0;
   }
-
+  
 .calculator{
   background: #3a4452;
   padding: 2px ;

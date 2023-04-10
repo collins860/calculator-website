@@ -1,7 +1,10 @@
-body{
-  padding: 0;
+*{
+   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body{
   font-family: sans-serif;
 }
 
@@ -48,6 +51,9 @@ form .screen{
   display: flex;
   justify-content: flex-end;
   margin: 5px 0 20px 0 ;
+  background: #3e4a5a;
+  height: 95px;
+  margin-top: 10px;
 }
 
 .display { 
@@ -77,7 +83,6 @@ form input.opt{
     border-radius: 0;
     display: flex;
     justify-content: center;
-     align-items: center;
   }
 
   .container{
@@ -88,7 +93,7 @@ form input.opt{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-/*     padding-bottom: 50px; */
+    padding-bottom: 50px;
   }
 
   .calculator form input { 
@@ -104,13 +109,14 @@ form input.opt{
    margin: 7px;
   }
 
-form .screen input{
-  text-align: right;
-  flex: 1;
-  font-size: 45px;
-  box-shadow: none;
-}
+  form .screen input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+  }
   
+
 .calculator{
   background: #3a4452;
   padding: 2px ;

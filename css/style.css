@@ -84,12 +84,13 @@ form input.opt{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-bottom: 50px;
   }
 
   .calculator form input { 
     border: 0;
-    width: 50%
-    height: 50%;
+    width: 70px;
+    height: 70px;
     border-radius: 10px;
    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
    background: transparent;
@@ -97,11 +98,6 @@ form input.opt{
    color: #fff;
    cursor: pointer;
    margin: 7px;
-  }
-
-  .btns{
-    margin-bottom: 10%;
-     margin: 7px;
   }
 
   form .screen input{
@@ -115,7 +111,7 @@ form input.opt{
     margin:20px 0 0 0;
   }
 
-  .calculator{
+.calculator{
   background: #3a4452;
   padding: 2px ;
 }
@@ -125,7 +121,7 @@ form input.opt{
 }
 
 #equal{
-   flex: 1;
+  width: 156px;
 }
 
 }

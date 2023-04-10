@@ -80,6 +80,7 @@ form input.opt{
     border-radius: 0;
     display: flex;
     justify-content: center;
+    padding-bottom: 20px;
   }
 
   .container{

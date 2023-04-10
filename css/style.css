@@ -85,6 +85,7 @@ form input.opt{
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 50px;
+     overflow: hidden;
   }
 
   .calculator form input { 

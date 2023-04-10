@@ -50,10 +50,7 @@ body{
 form .screen{
   display: flex;
   justify-content: flex-end;
-  margin: 5px 0 20px 0 ;
-  background: #3e4a5a;
-  height: 95px;
-  margin-top: 10px;
+  margin: 20px 0 5px 0 ;
 }
 
 .display { 
@@ -112,7 +109,7 @@ form input.opt{
   form .screen input{
     text-align: right;
     flex: 1;
-    font-size: 45px;
+    font-size: 50px;
     box-shadow: none;
   }
   
